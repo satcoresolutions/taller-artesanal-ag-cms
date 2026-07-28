@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_shared_product_variants",
+  "info": {
+    "displayName": "Product Variant"
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "string",
+      "required": true
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "stock": {
+      "type": "integer",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "config": {}
+}
