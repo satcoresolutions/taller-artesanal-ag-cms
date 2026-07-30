@@ -24,6 +24,17 @@
       },
       "required": true
     },
+    "craftYear": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "default": 2026,
+      "min": 2019,
+      "max": 2199
+    },
     "code": {
       "type": "string",
       "pluginOptions": {
